@@ -13,21 +13,23 @@ public class RobotSquare {
  
     	// 1. Make a new Robot
 
-
+    Robot asphalt8=new Robot("batman");
         // 3. Put the robot's pen down
-
+    asphalt8.penDown();
 
         // 6. Make the robot move as fast as possible
 
-
+asphalt8.setSpeed(10);
         // 5. Do everything below here 4 times
+for(int i = 0;i< 4;i++) {
+
 
 
         //         2. Move your robot 200 pixels
-
+	asphalt8.move(200);
 
         //         4. Turn the robot 90 degrees to the right (90 degrees)
-
-
+asphalt8.turn(90);
+}
     }
 }
